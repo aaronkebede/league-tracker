@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "Sports league management, score-tracking, and stats application",
   "main": "index.js",
+  "engines": {
+    "node": "14.x"
+  },
   "scripts": {
     "frontend": "if-env NODE_ENV=production && npm run -s serve || npm run -s dev",
     "build": "preact build --template src/index.html",
